@@ -1,0 +1,5 @@
+org\kafkainaction\Alert.class
+org\kafkainaction\producer\HelloWorldProducer.class
+org\kafkainaction\consumer\HelloWorldConsumer.class
+org\kafkainaction\AlertStatus.class
+org\kafkainaction\Alert$Builder.class
