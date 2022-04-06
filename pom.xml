@@ -53,16 +53,11 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.8.1</version>
+                    <version>3.10.1</version>
                     <configuration>
-                        <source>${java.version}</source>
-                        <target>${java.version}</target>
-                        <showWarnings>true</showWarnings>
-                        <compilerArgs>
-                            <arg>-Xlint:deprecation</arg>
-                            <arg>-Werror</arg>
-                        </compilerArgs>
-                    </configuration>
+						<release>${java.version}</release>
+					</configuration>
+                  
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
